@@ -5,7 +5,7 @@
 # Tiny Chess — a chess engine in 4 KB of Python
 
 An entry for make.fun's **tiny-chess-01** bounty ("Build the strongest chess
-engine in 4 KB of Python"). The whole engine is `main.py`: 4,089 bytes as
+engine in 4 KB of Python"). The whole engine is `main.py`: 4,094 bytes as
 committed, Python 3 standard library only. It unpacks itself at startup
 (a zlib-packed source plus a compact piece-square table block) and plays
 through the environment API at `MAKEFUN_ENV_URL`.

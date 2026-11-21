@@ -22,8 +22,8 @@ through the environment API at `MAKEFUN_ENV_URL`.
   keys), MVV-LVA capture ordering, and a quiescence search that resolves
   captures and promotions and searches all evasions when in check.
 - **Determinism.** No wall clock anywhere in the search: each game gets a
-  fixed budget of 4.8M nodes, handed out per move as a shrinking share of
-  what is left (30k–180k nodes a move), so a trial replays move for move
+  fixed budget of 9.2M nodes, handed out per move as a shrinking share of
+  what is left (30k–240k nodes a move), so a trial replays move for move
   and one move can never approach the 10-second limit.
 
 Local practice on the kit's gauntlet (depth-2 through nodes-500k anchors)
